@@ -1,0 +1,20 @@
+例子：
+
+def my_abs(x):     #定义函数用def表示 绝对值函数
+   if x>=0:
+    print(x)   #改为 return x
+   else:
+    print(-x)  #改为 return -x
+
+print(my_abs(-8))
+
+>>>9
+>>>None
+
+Q: 为什么返回结果有个None?
+
+A: 因为python中print函数需要返回值，如果你在print函数中所放的函数没有返回值，那么print将会return None 
+
+#  请注意，函数体内部的语句在执行时，一旦执行到return时，函数就执行完毕，并将结果返回。因此，函数内部通过条件判断和循环可以实现非常复杂的逻辑。
+
+#  如果没有return语句，函数执行完毕后也会返回结果，只是结果为None。return None可以简写为return
