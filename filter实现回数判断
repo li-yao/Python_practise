@@ -4,7 +4,6 @@ Python内建的filter()函数用于过滤序列。
 然后根据返回值是True还是False决定保留还是丢弃该元素。
 """
 def is_palindrome(n):
-    # a = list(map(int, str(num)))
     s=str(n)
     m=len(s)
     i=0
