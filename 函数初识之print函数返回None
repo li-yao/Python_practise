@@ -6,7 +6,8 @@ def my_abs(x):     #定义函数用def表示 绝对值函数
    else:
     print(-x)  #改为 return -x
 
-print(my_abs(-8))
+print(my_abs(-8))   #python中print函数需要返回值，如果你在print函数中所放的函数没有返回值，那么print将会return None 
+
 
 >>>9
 >>>None
